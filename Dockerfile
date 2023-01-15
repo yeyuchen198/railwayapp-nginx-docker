@@ -16,6 +16,7 @@ RUN unzip html.zip -o -d html
 # RUN /usr/bin/uwsgi -config=/etc/uwsgi/app.json
 
 
+ENV PORT=80
 EXPOSE 80
 
 # CMD ["nginx", "-g", "daemon off;"]
