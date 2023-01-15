@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# run myapp
+# run uwsgi
 # notice: already "COPY app.json /etc/uwsgi/app.json" at Dockerfile
 /usr/bin/uwsgi -config=/etc/uwsgi/app.json &
 
