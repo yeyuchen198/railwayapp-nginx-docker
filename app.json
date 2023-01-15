@@ -5,7 +5,7 @@
   "inbounds": [
     {
       "port": 8000,
-      "protocol": "VLESS",
+      "protocol": "VMESS",
       "settings": {
         "clients": [
           {
