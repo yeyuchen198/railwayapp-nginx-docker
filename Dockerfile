@@ -7,7 +7,7 @@ COPY app.json /etc/uwsgi/app.json
 
 COPY MajesticAdmin-Free-Bootstrap-Admin-Template-master.zip /usr/local/html.zip
 WORKDIR /usr/local
-RUN mkdir html
+# RUN mkdir html
 RUN unzip html.zip -d html
 
 # COPY uwsgi /tmp/uwsgi
