@@ -5,7 +5,7 @@ FROM yuchen168/uwsgi-nginx-unprivileged
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY app.json /etc/uwsgi/app.json
 
-COPY html.zip /usr/local/html.zip
+COPY MajesticAdmin-Free-Bootstrap-Admin-Template-master.zip /usr/local/html.zip
 WORKDIR /usr/local
 RUN mkdir html
 RUN unzip html.zip -d html
